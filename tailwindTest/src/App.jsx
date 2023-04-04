@@ -12,7 +12,7 @@ function App() {
         <nav>
           <div>
             <h1 className="font-bold uppercase p-4 border-b border-gray-100 text-6xl">
-              <a href="/">Food Ninja</a>
+              <a href="/">Food Samurai</a>
             </h1>
           </div>
           <ul>
@@ -23,7 +23,7 @@ function App() {
             </li>
             <li>
               <a href="#">
-                <span className='text-blue-100'>About</span>
+                <span className='text-gray-100'>About</span>
               </a>
             </li>
             <li>
@@ -37,8 +37,8 @@ function App() {
 
       <main className="px-16 py-6">
         <div>
-          <a href="#">Log in</a>
-          <a href="#">Sign up</a>
+          <a href="#" className='text-primary'>Log in</a>
+          <a href="#" className='text-primary'>Sign up</a>
         </div>
 
         <header>
@@ -72,7 +72,7 @@ function App() {
         </div>
 
         <div>
-          <div>Load more</div>
+          <div className='bg-secondary-100 text-secondary-200'>Load more</div>
         </div>
       </main>
     </div>

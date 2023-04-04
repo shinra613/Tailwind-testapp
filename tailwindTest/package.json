@@ -10,6 +10,7 @@
     "build-css": "tailwindcss build src/App.css -o src/App.output.css"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind": "^4.0.0"
